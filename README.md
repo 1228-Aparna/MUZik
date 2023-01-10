@@ -17,8 +17,7 @@ Technologies used in this module:
   -CNN Algorithm(Convolutional Neural Networks)
   -OpenCV
  CNN algorithm is used in identifying the facial expressions of the user.
- Here, for training the model, we have taken the dataset from kaggle
- Dataset link: https://www.kaggle.com/datasets/sulthankhan/facial-expression-recognition
+ Here, for training the model, we have taken the dataset from kaggle.
  With the help of this data, we have trained and tested the facial expression detection model using CNN algorithm and got an accuracy of 64.5 %.
  This model that is trained is saved in the file "model.h5".
  As the system resources aren't supporting such huge data, we trained our CNN model on kaggle itself.
