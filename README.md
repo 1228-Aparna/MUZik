@@ -26,15 +26,7 @@ Technologies used in this module:
  
  In this module, we used a dataset of approx. 167,000 rows with each row being a sing with different features like acousticness, dancebaility, etc.
  Based on these features, we've trained our model using "catboost algorithm" as it gave the best accuracy among all the other classification algorithms we've used.
-                                                              ALGORITHM                ACCURACY
-                                                              KNN	                       74.3
-                                                              NAÏVE BAYES 	             78.8
-                                                              SVM	                       79.7
-                                                              RANDOM FOREST	             79.7
-                                                              LOGISTIC REGRESSION	       80.6
-                                                              XGBOOST	                   81.9
-                                                              LGBM	                     83.7
-                                                              CATBOOST	                 94.2
+KNN(74.3), NAÏVE BAYES(78.8), SVM(79.7), RANDOM FOREST(79.7), LOGISTIC REGRESSION(80.6), XGBOOST(81.9), LGBM(83.7), CATBOOST(94.2).
 This model can help in classifying the mood of any new song with all the mentioned features.
 
 MODULE-3: User Interface
